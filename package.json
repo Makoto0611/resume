@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "職務経歴書",
+  "main": "index.js",
+  "scripts": {
+    "lint": "textlint . && markdownlint **/*.md",
+    "lint:text": "textlint .",
+    "lint:md": "markdownlint **/*.md"
+  },
+  "keywords": [
+    "resume",
+    "職務経歴書"
+  ],
+  "author": "猿橋誠",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0",
+    "textlint": "^15.2.2"
+  }
+}
