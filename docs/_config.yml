@@ -1,6 +1,6 @@
 remote_theme: pages-themes/cayman@v0.2.0
-title: 猿橋誠 職務経歴書
-description: システムエンジニア 猿橋誠の職務経歴書
+title:職務経歴書
+description: システムエンジニア 職務経歴書
 
 # 検索エンジン除外設定
 plugins:
