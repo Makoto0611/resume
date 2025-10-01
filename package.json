@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "textlint . && markdownlint **/*.md",
     "lint:text": "textlint .",
-    "lint:md": "markdownlint **/*.md"
+    "lint:md": "markdownlint **/*.md",
+    "pdf": "md-to-pdf docs/README.md --config-file pdf-config.json"
   },
   "keywords": [
     "resume",
@@ -16,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "markdownlint-cli": "^0.45.0",
+    "md-to-pdf": "^5.2.4",
     "textlint": "^15.2.2"
   }
 }
